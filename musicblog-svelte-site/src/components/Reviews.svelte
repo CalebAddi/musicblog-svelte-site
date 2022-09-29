@@ -1,5 +1,77 @@
 <script>
+	const reviewData = {
+		revAlbum01: 
+		{
+			id: 1,
+			albumLink: "https://open.spotify.com/album/43yoolTNh1hxOThLrQbrMl?si=80770f0344a64fdchttps://open.spotify.com/album/43yoolTNh1hxOThLrQbrMl?si=80770f0344a64fdc",
+			artistLink: "https://open.spotify.com/artist/7q29jQLrEw2EaynNVRPOUs?si=6nBGV5LnSrms-jJzA0bcYA",
+			genreLink: "https://en.wikipedia.org/wiki/Alternative_music"
+		},
 
+		revAlbum02:
+		{
+			id: 2,
+			albumLink: "",
+			artistLink: "",
+			genreLink: ""
+		},
+
+		revAlbum03:
+		{
+			id: 3,
+			albumLink: "",
+			artistLink: "",
+			genreLink: ""
+		},
+
+		revAlbum04:
+		{
+			id: 4,
+			albumLink: "",
+			artistLink: "",
+			genreLink: ""
+		},
+
+		revAlbum05:
+		{
+			id: 5,
+			albumLink: "",
+			artistLink: "",
+			genreLink: ""
+		},
+
+		revAlbum06:
+		{
+			id: 6,
+			albumLink: "",
+			artistLink: "",
+			genreLink: ""
+		},
+
+		revAlbum07:
+		{
+			id: 7,
+			albumLink: "",
+			artistLink: "",
+			genreLink: ""
+		},
+
+		revAlbum08:
+		{
+			id: 8,
+			albumLink: "",
+			artistLink: "",
+			genreLink: ""
+		},
+
+		revAlbum09:
+		{
+			id: 9,
+			albumLink: "",
+			artistLink: "",
+			genreLink: ""
+		},
+	}
 </script>
 
 <main>
@@ -11,10 +83,10 @@
 		<!-- Review Main Section -->
 		<div id="review" class="review-section">
 			<div class="review">
-				<a href="" class="review_link">
+				<a target="_blank" href={reviewData.revAlbum01.albumLink} class="review_link">
 					<div class="review-artwork">
 						<div>
-							<img src='' alt="">
+							<img src="/src/ReviewTestIMG.png" alt="album">
 						</div>
 					</div>
 					<div class="review-title-artist">
@@ -29,22 +101,22 @@
 				<div class="review-meta">
 					<ul class="genre-list">
 						<li class="genre-list-item">
-							<a href="" class="genre-list-link">Alt-Pop</a>
+							<a target="_blank" href={reviewData.revAlbum01.genreLink} class="genre-list-link">Alt-Pop</a>
 						</li>
 					</ul>
 					<ul class="authors">
 						<li>
-							<a href="" class="linked-display-name"><span class="by">by</span>Coffin Society</a>
+							<a target="_blank" href={reviewData.revAlbum01.artistLink} class="linked-display-name"><span class="by">by </span>Coffin Society</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 			<!-- Review Container #2 -->
 			<div class="review">
-				<a href="" class="review_link">
+				<a target="_blank" href="" class="review_link">
 					<div class="review-artwork">
 						<div>
-							<img src="" alt="">
+							<img src="/src/ReviewTestIMG.png" alt="album">
 						</div>
 					</div>
 					<div class="review-title-artist">
@@ -59,22 +131,22 @@
 				<div class="review-meta">
 					<ul class="genre-list">
 						<li class="genre-list-item">
-							<a href="" class="genre-list-link">Genre Name</a>
+							<a target="_blank" href="" class="genre-list-link">Genre Name</a>
 						</li>
 					</ul>
 					<ul class="authors">
 						<li>
-							<a href="" class="linked-display-name"><span class="by">by</span>Artist</a>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by</span>Artist</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 			<!-- Review Container #3 -->
 			<div class="review">
-				<a href="" class="review_link">
+				<a target="_blank" href="" class="review_link">
 					<div class="review-artwork">
 						<div>
-							<img src="" alt="">
+							<img src="/src/ReviewTestIMG.png" alt="album">
 						</div>
 					</div>
 					<div class="review-title-artist">
@@ -89,22 +161,22 @@
 				<div class="review-meta">
 					<ul class="genre-list">
 						<li class="genre-list-item">
-							<a href="" class="genre-list-link">Genre Name</a>
+							<a target="_blank" href="" class="genre-list-link">Genre Name</a>
 						</li>
 					</ul>
 					<ul class="authors">
 						<li>
-							<a href="" class="linked-display-name"><span class="by">by</span>Artist</a>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by</span>Artist</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 			<!-- Review Container #4 -->
 			<div class="review">
-				<a href="" class="review_link">
+				<a target="_blank" href="" class="review_link">
 					<div class="review-artwork">
 						<div>
-							<img src="" alt="">
+							<img src="/src/ReviewTestIMG.png" alt="album">
 						</div>
 					</div>
 					<div class="review-title-artist">
@@ -119,22 +191,22 @@
 				<div class="review-meta">
 					<ul class="genre-list">
 						<li class="genre-list-item">
-							<a href="" class="genre-list-link">Genre Name</a>
+							<a target="_blank" href="" class="genre-list-link">Genre Name</a>
 						</li>
 					</ul>
 					<ul class="authors">
 						<li>
-							<a href="" class="linked-display-name"><span class="by">by</span>Artist</a>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by</span>Artist</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 			<!-- Review Container #5 -->
 			<div class="review">
-				<a href="" class="review_link">
+				<a target="_blank" href="" class="review_link">
 					<div class="review-artwork">
 						<div>
-							<img src="" alt="">
+							<img src="/src/ReviewTestIMG.png" alt="album">
 						</div>
 					</div>
 					<div class="review-title-artist">
@@ -149,22 +221,22 @@
 				<div class="review-meta">
 					<ul class="genre-list">
 						<li class="genre-list-item">
-							<a href="" class="genre-list-link">Genre Name</a>
+							<a target="_blank" href="" class="genre-list-link">Genre Name</a>
 						</li>
 					</ul>
 					<ul class="authors">
 						<li>
-							<a href="" class="linked-display-name"><span class="by">by</span>Artist</a>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by</span>Artist</a>
 						</li>
 					</ul>
 				</div>
 			</div> 
 			<!-- Review Container #6 -->
 			<div class="review">
-				<a href="" class="review_link">
+				<a target="_blank" href="" class="review_link">
 					<div class="review-artwork">
 						<div>
-							<img src="" alt="">
+							<img src="/src/ReviewTestIMG.png" alt="album">
 						</div>
 					</div>
 					<div class="review-title-artist">
@@ -179,22 +251,22 @@
 				<div class="review-meta">
 					<ul class="genre-list">
 						<li class="genre-list-item">
-							<a href="" class="genre-list-link">Genre Name</a>
+							<a target="_blank" href="" class="genre-list-link">Genre Name</a>
 						</li>
 					</ul>
 					<ul class="authors">
 						<li>
-							<a href="" class="linked-display-name"><span class="by">by</span>Artist</a>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by</span>Artist</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 			<!-- Review Container #7 -->
 			<div class="review">
-				<a href="" class="review_link">
+				<a target="_blank" href="" class="review_link">
 					<div class="review-artwork">
 						<div>
-							<img src="" alt="">
+							<img src="/src/ReviewTestIMG.png" alt="album">
 						</div>
 					</div>
 					<div class="review-title-artist">
@@ -209,22 +281,22 @@
 				<div class="review-meta">
 					<ul class="genre-list">
 						<li class="genre-list-item">
-							<a href="" class="genre-list-link">Genre Name</a>
+							<a target="_blank" href="" class="genre-list-link">Genre Name</a>
 						</li>
 					</ul>
 					<ul class="authors">
 						<li>
-							<a href="" class="linked-display-name"><span class="by">by</span>Artist</a>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by</span>Artist</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 			<!-- Review Container #8 -->
 			<div class="review">
-				<a href="" class="review_link">
+				<a target="_blank" href="" class="review_link">
 					<div class="review-artwork">
 						<div>
-							<img src="" alt="">
+							<img src="/src/ReviewTestIMG.png" alt="album">
 						</div>
 					</div>
 					<div class="review-title-artist">
@@ -239,12 +311,42 @@
 				<div class="review-meta">
 					<ul class="genre-list">
 						<li class="genre-list-item">
-							<a href="" class="genre-list-link">Genre Name</a>
+							<a target="_blank" href="" class="genre-list-link">Genre Name</a>
 						</li>
 					</ul>
 					<ul class="authors">
 						<li>
-							<a href="" class="linked-display-name"><span class="by">by</span>Artist</a>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by</span>Artist</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Review Container #9 -->
+			<div class="review">
+				<a target="_blank" href="" class="review_link">
+					<div class="review-artwork">
+						<div>
+							<img src="/src/ReviewTestIMG.png" alt="album">
+						</div>
+					</div>
+					<div class="review-title-artist">
+						<ul class="artist-list">
+							<li class="artist-li">Artist Name</li>
+						</ul>
+						<h5 class="review-title-album">
+							<em>Album Name</em>
+						</h5>
+					</div>
+				</a>
+				<div class="review-meta">
+					<ul class="genre-list">
+						<li class="genre-list-item">
+							<a target="_blank" href="" class="genre-list-link">Genre Name</a>
+						</li>
+					</ul>
+					<ul class="authors">
+						<li>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by</span>Artist</a>
 						</li>
 					</ul>
 				</div>
@@ -288,7 +390,6 @@
 
 .review {
     float: left;
-    width: 30%;
     position: relative;
     min-height: 1px;
     padding-left: 10px;
@@ -306,16 +407,17 @@
 }
 
 .review-artwork {
-    margin-bottom: 20px;
+	padding-top: 4px;
 }
 
 .review-artwork img {
     border: 1px solid #000;
+	width: 200px;
 }
 
 .review-title-artist {
-    font-size: 2rem;
-    color: #3a424c;
+    font-size: 1.5rem;
+    color: rgb(248, 238, 225);
     background-color: rgba(201, 161, 161, 0.7);
     font-weight: 600;
     margin-bottom: 1rem;
@@ -365,5 +467,14 @@ h4 {
     text-shadow: rgb(31, 31, 31, .6) 3px 3px;
 } */
 
+@media (min-width: 640px) {
+			main {
+				max-width: none;
+			}
+
+			.review {
+				width: 240px;
+			}
+		}
 
 </style>

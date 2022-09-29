@@ -27,7 +27,7 @@
 					<a href="#review"><h3>Reviews</h3></a>
 				</li>
 				<li>
-					<a href="/"><h3>Playlists</h3></a>
+					<a href="/src/components/Playlists.svelte"><h3>Playlists</h3></a>
 				</li> 
 				<li>
 					<a href="/src/components/Interviews.svelte"><h3>Interviews</h3></a>
@@ -85,7 +85,7 @@
 	.about-container {
 		position: relative;
 		z-index: 2;
-		margin-top: 45rem;
+		margin-top: 10rem;
 	}
 
 

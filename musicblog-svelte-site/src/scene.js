@@ -7,7 +7,7 @@ scene.background = new Color('#3a424c')
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 
 //Texture Loader
-// const vinylTexture = new THREE.TextureLoader().load('../public/images/vinyl-02.png');
+const vinylTexture = new THREE.TextureLoader().load('../public/images/vinyl-02.png');
 
 // Objects
 const geometry = new THREE.RingGeometry(.17, 1.7, 50, 25);
@@ -24,8 +24,7 @@ particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3
 
 //---------- Materials ----------//
 const material = new THREE.MeshBasicMaterial({
-    // map: vinylTexture,
-    color: 0x000,
+    map: vinylTexture,
 });
 
 const particleMaterial = new THREE.PointsMaterial({
