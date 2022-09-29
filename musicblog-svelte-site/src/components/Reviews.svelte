@@ -19,22 +19,22 @@
 					</div>
 					<div class="review-title-artist">
 						<ul class="artist-list">
-							<li class="artist-li">Artist Name</li>
+							<li class="artist-li">Coffin Scociety</li>
 						</ul>
 						<h5 class="review-title-album">
-							<em>Album Name</em>
+							<em>Cutthroat Inc.</em>
 						</h5>
 					</div>
 				</a>
 				<div class="review-meta">
 					<ul class="genre-list">
 						<li class="genre-list-item">
-							<a href="" class="genre-list-link">Genre Name</a>
+							<a href="" class="genre-list-link">Alt-Pop</a>
 						</li>
 					</ul>
 					<ul class="authors">
 						<li>
-							<a href="" class="linked-display-name"><span class="by">by</span>Artist</a>
+							<a href="" class="linked-display-name"><span class="by">by</span>Coffin Society</a>
 						</li>
 					</ul>
 				</div>
