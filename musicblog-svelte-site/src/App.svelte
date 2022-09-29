@@ -2,6 +2,7 @@
 	import About from "./components/About.svelte";
 	import Home from "./components/Home.svelte";
 	import Reviews from "./components/Reviews.svelte";
+	import Footer from "./components/Footer.svelte";
 
 	import { onMount } from 'svelte';
 	import { createScene } from "./scene";
@@ -51,6 +52,10 @@
 
 	<div class="about-container" id="about">
 		<About />
+	</div>
+
+	<div class="footer-container">
+		<Footer />
 	</div>
 </main>
 
@@ -136,26 +141,6 @@
 		text-align: center;
 		text-shadow: rgb(31, 31, 31, .6) 5px 5px;
 	}
-
-	/* h4 {
-		margin-top: 12rem;
-		margin-bottom: 4rem;
-		font-size: 2rem;
-		font-weight: 500;
-		text-transform: uppercase;
-		color: rgba(242, 162, 162, 0.7);
-		text-align: center;
-		text-shadow: rgb(31, 31, 31, .6) 3px 3px;
-	}
-
-	p {
-		margin-top: 12rem;
-		font-size: 1.5rem;
-		text-transform: uppercase;
-		color: rgba(223, 223, 223, 0.5);
-		text-align: center;
-		text-shadow: rgb(31, 31, 31, .6) 3px 3px;
-	} */
 
 		@media (min-width: 640px) {
 			main {

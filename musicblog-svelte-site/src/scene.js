@@ -10,7 +10,7 @@ const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerH
 const vinylTexture = new THREE.TextureLoader().load('../public/images/vinyl-02.png');
 
 // Objects
-const geometry = new THREE.RingGeometry(.17, 1.7, 50, 25);
+const geometry = new THREE.RingGeometry(.20, 2.7, 50, 25);
 const particlesGeometry = new THREE.BufferGeometry;
 const particleCount = 12000;
 

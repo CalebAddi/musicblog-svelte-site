@@ -5,12 +5,15 @@
 <main>
     <div class="about-section">
         <div class="about-content">
-            <h4>About Melodic & Chaotic</h4>
-            <p>This is a temp test paragraph placeholder</p>
+            <h4>About Me</h4>
+            <p>This is a temp test paragraph placeholder. This is a temp test paragraph placeholder
+                This is a temp test paragraph placeholder. This is a temp test paragraph placeholder
+                This is a temp test paragraph placeholder. This is a temp test paragraph placeholder
+            </p>
         </div>
     <!-------------------------------------------->
         <div class="about-img">
-            <!-- <img /> -->
+            <img src="/src/ReviewTestIMG.png" alt="melodic-chaotic"/>
         </div>
     <!-------------------------------------------->
     </div>
@@ -29,8 +32,12 @@
         justify-content: center;
     }
 
+    .about-img {
+        margin-bottom: 7rem;
+    }
+
     h4 {
-    margin-top: 12rem;
+    margin-top: 4rem;
     margin-bottom: 4rem;
     font-size: 2rem;
     font-weight: 500;
@@ -40,4 +47,14 @@
     text-shadow: rgb(31, 31, 31, .6) 3px 3px;
 	font-family: 'Poppins';
 }
+
+    p {
+		margin-top: 2rem;
+        margin-bottom: 5rem;
+		font-size: 1.5rem;
+		text-transform: uppercase;
+		color: rgba(223, 223, 223, 0.5);
+		text-align: center;
+		text-shadow: rgb(31, 31, 31, .6) 3px 3px;
+	}
 </style>

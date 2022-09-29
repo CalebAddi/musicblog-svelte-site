@@ -71,10 +71,34 @@
 			artistLink: "",
 			genreLink: ""
 		},
+
+		revAlbum10:
+		{
+			id: 10,
+			albumLink: "",
+			artistLink: "",
+			genreLink: ""
+		},
+
+		revAlbum11:
+		{
+			id: 11,
+			albumLink: "",
+			artistLink: "",
+			genreLink: ""
+		},
+
+		revAlbum12:
+		{
+			id: 12,
+			albumLink: "",
+			artistLink: "",
+			genreLink: ""
+		},
 	}
 </script>
 
-<main>
+<main class='review-body'>
     <div class="review-container">
 			<div>
 				<h4 class="h4-review">Reviews</h4>
@@ -136,7 +160,7 @@
 					</ul>
 					<ul class="authors">
 						<li>
-							<a target="_blank" href="" class="linked-display-name"><span class="by">by</span>Artist</a>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by </span>Artist</a>
 						</li>
 					</ul>
 				</div>
@@ -166,7 +190,7 @@
 					</ul>
 					<ul class="authors">
 						<li>
-							<a target="_blank" href="" class="linked-display-name"><span class="by">by</span>Artist</a>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by </span>Artist</a>
 						</li>
 					</ul>
 				</div>
@@ -196,7 +220,7 @@
 					</ul>
 					<ul class="authors">
 						<li>
-							<a target="_blank" href="" class="linked-display-name"><span class="by">by</span>Artist</a>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by </span>Artist</a>
 						</li>
 					</ul>
 				</div>
@@ -226,7 +250,7 @@
 					</ul>
 					<ul class="authors">
 						<li>
-							<a target="_blank" href="" class="linked-display-name"><span class="by">by</span>Artist</a>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by </span>Artist</a>
 						</li>
 					</ul>
 				</div>
@@ -256,7 +280,7 @@
 					</ul>
 					<ul class="authors">
 						<li>
-							<a target="_blank" href="" class="linked-display-name"><span class="by">by</span>Artist</a>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by </span>Artist</a>
 						</li>
 					</ul>
 				</div>
@@ -286,7 +310,7 @@
 					</ul>
 					<ul class="authors">
 						<li>
-							<a target="_blank" href="" class="linked-display-name"><span class="by">by</span>Artist</a>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by </span>Artist</a>
 						</li>
 					</ul>
 				</div>
@@ -316,7 +340,7 @@
 					</ul>
 					<ul class="authors">
 						<li>
-							<a target="_blank" href="" class="linked-display-name"><span class="by">by</span>Artist</a>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by </span>Artist</a>
 						</li>
 					</ul>
 				</div>
@@ -346,7 +370,97 @@
 					</ul>
 					<ul class="authors">
 						<li>
-							<a target="_blank" href="" class="linked-display-name"><span class="by">by</span>Artist</a>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by </span>Artist</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Review Container #10 -->
+			<div class="review">
+				<a target="_blank" href="" class="review_link">
+					<div class="review-artwork">
+						<div>
+							<img src="/src/ReviewTestIMG.png" alt="album">
+						</div>
+					</div>
+					<div class="review-title-artist">
+						<ul class="artist-list">
+							<li class="artist-li">Artist Name</li>
+						</ul>
+						<h5 class="review-title-album">
+							<em>Album Name</em>
+						</h5>
+					</div>
+				</a>
+				<div class="review-meta">
+					<ul class="genre-list">
+						<li class="genre-list-item">
+							<a target="_blank" href="" class="genre-list-link">Genre Name</a>
+						</li>
+					</ul>
+					<ul class="authors">
+						<li>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by </span>Artist</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Review Container #11 -->
+			<div class="review">
+				<a target="_blank" href="" class="review_link">
+					<div class="review-artwork">
+						<div>
+							<img src="/src/ReviewTestIMG.png" alt="album">
+						</div>
+					</div>
+					<div class="review-title-artist">
+						<ul class="artist-list">
+							<li class="artist-li">Artist Name</li>
+						</ul>
+						<h5 class="review-title-album">
+							<em>Album Name</em>
+						</h5>
+					</div>
+				</a>
+				<div class="review-meta">
+					<ul class="genre-list">
+						<li class="genre-list-item">
+							<a target="_blank" href="" class="genre-list-link">Genre Name</a>
+						</li>
+					</ul>
+					<ul class="authors">
+						<li>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by </span>Artist</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Review Container #12 -->
+			<div class="review">
+				<a target="_blank" href="" class="review_link">
+					<div class="review-artwork">
+						<div>
+							<img src="/src/ReviewTestIMG.png" alt="album">
+						</div>
+					</div>
+					<div class="review-title-artist">
+						<ul class="artist-list">
+							<li class="artist-li">Artist Name</li>
+						</ul>
+						<h5 class="review-title-album">
+							<em>Album Name</em>
+						</h5>
+					</div>
+				</a>
+				<div class="review-meta">
+					<ul class="genre-list">
+						<li class="genre-list-item">
+							<a target="_blank" href="" class="genre-list-link">Genre Name</a>
+						</li>
+					</ul>
+					<ul class="authors">
+						<li>
+							<a target="_blank" href="" class="linked-display-name"><span class="by">by </span>Artist</a>
 						</li>
 					</ul>
 				</div>
@@ -382,7 +496,24 @@
 	}
 
     /*------- Review Section -------*/
+
+.review-body {
+	background-color: rgb(28, 31, 34, .3);
+	padding-top: 1px;
+	border: 5px solid #1c1f22;
+}
+
+.review-container {
+	margin-top: -1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background-color: rgb(28, 31, 34, .3);
+	border-bottom: 5px solid #1c1f22;
+}
+
 .review-section {
+	margin-bottom: 15px;
+	padding-top: 15px;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
@@ -404,6 +535,7 @@
     text-decoration: none;
     transition: color .15s;
     background-color: rgba(201, 161, 161, 0.7);
+	border: 3px solid rgb(28, 31, 34, .85);
 }
 
 .review-artwork {
@@ -420,7 +552,6 @@
     color: rgb(248, 238, 225);
     background-color: rgba(201, 161, 161, 0.7);
     font-weight: 600;
-    margin-bottom: 1rem;
     padding-bottom: 5px;
     font-family: 'Poppins';
 }
@@ -437,18 +568,9 @@
 
 /*------- Headings and Paragraphs -------*/
 
-/* h3 {
-    font-size: 1rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: rgba(242, 162, 162, 0.7);
-    text-align: center;
-    text-shadow: rgb(31, 31, 31, .6) 5px 5px;
-} */
-
 h4 {
-    margin-top: 12rem;
-    margin-bottom: 4rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
     font-size: 2rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -457,15 +579,6 @@ h4 {
     text-shadow: rgb(31, 31, 31, .6) 3px 3px;
 	font-family: 'Poppins';
 }
-
-/* p {
-    margin-top: 12rem;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: rgba(223, 223, 223, 0.5);
-    text-align: center;
-    text-shadow: rgb(31, 31, 31, .6) 3px 3px;
-} */
 
 @media (min-width: 640px) {
 			main {
