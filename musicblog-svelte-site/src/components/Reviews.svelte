@@ -526,7 +526,8 @@
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
-    margin-bottom: 30px;
+	margin-top: 50px;
+    margin-bottom: 50px;
 	font-family: 'Poppins';
 }
 

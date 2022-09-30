@@ -24,6 +24,9 @@
 				<li>
 					<a class='menu__item' href="#about"><h3>About</h3></a>
 				</li>
+				<li>
+					<a class='menu__item' href="#contact"><h3>Contact</h3></a>
+				</li>
 			</ul>
 		</nav> 
     </header>

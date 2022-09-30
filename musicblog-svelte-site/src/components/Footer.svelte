@@ -1,11 +1,18 @@
-<script>
+<script src="https://kit.fontawesome.com/0bbb5fd5b8.js" crossorigin="anonymous">
 
-</script>
+</script> 
 
 <main>
     <div class="footer-container">
         <div class="footer-header">
             <h4>Melodic & Chaotic</h4>
+        </div>
+
+        <div class="social-icons">
+            <a class='icon_' href="/"><i class="fa-brands fa-twitter"></i></a>
+            <a class='icon_' href="/"><i class="fa-brands fa-square-tumblr"></i></a>
+            <a class='icon_' href="/"><i class="fa-brands fa-instagram"></i></a>
+            <a class='icon_' href="/"><i class="fa-brands fa-spotify"></i></a>
         </div>
 
         <div class="para-container">
@@ -22,6 +29,10 @@
 		box-sizing: border-box;
 	} 
 
+    a {
+        color: rgba(218, 174, 174, 0.8);
+    }
+
 /*! Class Styles !*/
     .footer-container {
         position: relative;
@@ -33,10 +44,22 @@
 	    border: 5px solid #1c1f22;
     }
 
+    .social-icons {
+        z-index: 2;
+        font-size: 40px;
+        text-shadow: rgb(31, 31, 31, .6) 3px 3px;
+        word-spacing: 30px;
+    }
+
+    .icon_:hover {
+        transition: 1.7s;
+        color: #1c1f22;
+    }
+
 /*! Text Styles !*/
     h4 {
     padding-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-size: 1.5rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -47,7 +70,7 @@
 }
 
 p {
-		margin-top: 5rem;
+		margin-top: 2rem;
         margin-bottom: 1rem;
 		font-size: 1rem;
 		text-transform: uppercase;
