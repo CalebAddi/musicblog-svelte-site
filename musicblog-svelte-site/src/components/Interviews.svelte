@@ -1,8 +1,13 @@
 <script>
+	import Navbar from './Navbar.svelte'; 
 
 </script>
 
 <main>
+	<div class="header-container">
+			<Navbar />
+		</div>
+
     <div class="interviews-container">
         <h4>Interviews</h4>
     </div>
@@ -15,12 +20,6 @@
 		box-sizing: border-box;
 	} 
 
-	/* canvas {
-		position: fixed;
-		top: 0;
-		left: 0;
-	} */
-
     h4 {
 		margin-top: 12rem;
 		margin-bottom: 4rem;
@@ -30,5 +29,9 @@
 		color: rgba(242, 162, 162, 0.7);
 		text-align: center;
 		text-shadow: rgb(31, 31, 31, .6) 3px 3px;
+	}
+
+	.header-container {
+		z-index: 3;
 	}
 </style>

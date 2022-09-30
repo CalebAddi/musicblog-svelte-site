@@ -492,7 +492,7 @@
 	a:hover {
 		color: rgb(234, 146, 114);
 		transition: .7s;
-		transform: scale(1.1);
+		transform: scale(.9);
 	}
 
     /*------- Review Section -------*/
@@ -564,6 +564,10 @@
 .artist-list {
     border-top: 1px solid #1c1f22;
 	border-bottom: 1px solid #1c1f22;
+}
+
+.review-meta {
+	margin-top: 10px;
 }
 
 /*------- Headings and Paragraphs -------*/

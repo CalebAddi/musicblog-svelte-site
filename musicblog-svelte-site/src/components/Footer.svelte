@@ -22,6 +22,7 @@
 		box-sizing: border-box;
 	} 
 
+/*! Class Styles !*/
     .footer-container {
         position: relative;
         z-index: 2;
@@ -32,10 +33,11 @@
 	    border: 5px solid #1c1f22;
     }
 
+/*! Text Styles !*/
     h4 {
     padding-top: 1rem;
     margin-bottom: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     text-transform: uppercase;
     color: rgba(242, 162, 162, 0.7);
@@ -45,12 +47,13 @@
 }
 
 p {
-		margin-top: 2rem;
-        margin-bottom: 5rem;
+		margin-top: 5rem;
+        margin-bottom: 1rem;
 		font-size: 1rem;
 		text-transform: uppercase;
 		color: rgba(255, 135, 135, 0.5);
 		text-align: center;
 		text-shadow: rgb(31, 31, 31, .6) 3px 3px;
 	}
+
 </style>
