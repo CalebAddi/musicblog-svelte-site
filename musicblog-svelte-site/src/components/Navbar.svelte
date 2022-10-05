@@ -30,6 +30,37 @@
 			</ul>
 		</nav> 
     </header>
+
+	<body>
+		<label>
+		<input type="checkbox">
+		<span class="menu"> <span class="hamburger"></span> </span>
+		<ul class="list-content">
+				<li>
+					<a class='ham-item' href="/"><h3>Home</h3></a>
+				</li>
+				<li>
+					<a class='ham-item' href="/src/components/BLog.svelte"><h3>Blog</h3></a>
+				</li>
+				<li>
+					<a class='ham-item' href="#review"><h3>Reviews</h3></a>
+				</li>
+				<li>
+					<a class='ham-item' href="/src/components/Playlists.svelte"><h3>Playlists</h3></a>
+				</li> 
+				<li>
+					<a class='ham-item' href="/src/components/Interviews.svelte"><h3>Interviews</h3></a>
+				</li>
+				<li>
+					<a class='ham-item' href="#about"><h3>About</h3></a>
+				</li>
+				<li>
+					<a class='ham-item' href="#contact"><h3>Contact</h3></a>
+				</li>
+			</ul>
+		</label>
+	</body>
+
 </main>
 
 <style>
@@ -39,6 +70,10 @@
 		padding: 0;
 		box-sizing: border-box;
 	} 
+
+	.ham-item {
+		display: none;
+	}
 
 	/*------- Nav Section -------*/
 	.header-container {
@@ -88,9 +123,112 @@
 		text-shadow: rgb(31, 31, 31, .6) 5px 5px;
 	}
 
-		@media (min-width: 640px) {
-			main {
-				max-width: none;
+		@media (max-width: 640px) {
+			nav {
+				display: none;
+			}
+
+			.ham-item {
+				display: flex;
+			}
+
+			body {
+				font-size: 1.2em;
+				line-height: 1.6;
+				overflow-x: hidden;
+			}
+
+			label .menu {
+				position: absolute;
+				right: -0px;
+				top: -100px;
+				z-index: 2;
+				width: 170px;
+				height: 175px;
+				background: rgb(43, 43, 43, .9);
+				border-radius: 20%;
+				-webkit-transition: .5s ease-in-out;
+				transition: .5s ease-in-out;
+				box-shadow: 0 0 0 0 rgb(43, 43, 43), 0 0 0 0 rgb(43, 43, 43);
+				cursor: pointer;
+				overflow-x: hidden;
+			}
+
+			label .hamburger {
+				position: absolute;
+				top: 130px;
+				left: 68px;
+				width: 40px;
+				height: 4px;
+				background: #a27171;
+				display: block;
+				-webkit-transform-origin: center;
+				transform-origin: center;
+				-webkit-transition: .5s ease-in-out;
+				transition: .5s ease-in-out;
+			}
+
+			label .hamburger:after, label .hamburger:before {
+				-webkit-transition: .5s ease-in-out;
+				transition: .5s ease-in-out;
+				content: "";
+				position: absolute;
+				display: block;
+				width: 100%;
+				height: 100%;
+				background: #a27171;
+			}
+
+			label .hamburger:before { top: -10px; }
+
+			label .hamburger:after { bottom: -10px; }
+
+			label input { display: none; }
+
+			label input:checked + .menu {
+				box-shadow: 0 0 0 100vw rgb(43, 43, 43, .7), 0 0 0 100vh rgb(43, 43, 43, .7);
+				border-radius: 0;
+				border: 2px solid rgb(0, 0, 0, .7);
+			}
+
+			label input:checked + .menu .hamburger {
+				-webkit-transform: rotate(45deg);
+				transform: rotate(45deg);
+			
+			}
+
+			label input:checked + .menu .hamburger:after {
+				-webkit-transform: rotate(90deg);
+				transform: rotate(90deg);
+				bottom: 0;
+			
+			}
+
+			label input:checked + .menu .hamburger:before {
+				-webkit-transform: rotate(90deg);
+				transform: rotate(90deg);
+				top: 0;
+			
+			}
+
+			label input:checked + .menu + ul { opacity: 1; }
+
+			label ul {
+				z-index: 200;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				-webkit-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+				opacity: 0;
+				-webkit-transition: .25s 0s ease-in-out;
+				transition: .25s 0s ease-in-out;
+			}
+
+			label a {
+				margin-bottom: .5rem;
+				display: grid;
+				text-decoration: none;
 			}
 		}
 </style>
