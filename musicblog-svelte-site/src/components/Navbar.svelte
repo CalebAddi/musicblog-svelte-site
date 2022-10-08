@@ -140,13 +140,13 @@
 
 			label .menu {
 				position: absolute;
-				right: -0px;
+				right: 0px;
 				top: -100px;
 				z-index: 2;
-				width: 170px;
+				width: 125px;
 				height: 175px;
 				background: rgb(43, 43, 43, .9);
-				border-radius: 20%;
+				border-radius: 0% 25%;
 				-webkit-transition: .5s ease-in-out;
 				transition: .5s ease-in-out;
 				box-shadow: 0 0 0 0 rgb(43, 43, 43), 0 0 0 0 rgb(43, 43, 43);
@@ -157,9 +157,9 @@
 			label .hamburger {
 				position: absolute;
 				top: 130px;
-				left: 68px;
+				left: 47px;
 				width: 40px;
-				height: 4px;
+				height: 3px;
 				background: #a27171;
 				display: block;
 				-webkit-transform-origin: center;
@@ -186,7 +186,7 @@
 			label input { display: none; }
 
 			label input:checked + .menu {
-				box-shadow: 0 0 0 100vw rgb(43, 43, 43, .7), 0 0 0 100vh rgb(43, 43, 43, .7);
+				box-shadow: 0 0 0 100vw rgb(43, 43, 43, .2), 0 0 0 80vh rgb(43, 43, 43, .955);
 				border-radius: 0;
 				border: 2px solid rgb(0, 0, 0, .7);
 			}
@@ -218,11 +218,10 @@
 				position: absolute;
 				top: 50%;
 				left: 50%;
-				-webkit-transform: translate(-50%, -50%);
 				transform: translate(-50%, -50%);
 				opacity: 0;
-				-webkit-transition: .25s 0s ease-in-out;
 				transition: .25s 0s ease-in-out;
+				display: grid;
 			}
 
 			label a {
@@ -230,5 +229,15 @@
 				display: grid;
 				text-decoration: none;
 			}
+
+			label h3 {
+				font-size: 1.5rem;
+			}
+
+			label ul li a:hover {
+		background-color: rgb(58, 66, 76, .001);
+		transition: .7s;
+		transform: scale(1.1);
+	}
 		}
 </style>
