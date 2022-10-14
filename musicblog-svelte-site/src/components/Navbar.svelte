@@ -1,5 +1,14 @@
 <script>
 
+	const navLink = {
+		blog: '/src/components/Blog.svelte',
+		review: '#review',
+		playlist: '/src/components/Playlists.svelte',
+		interviews: '/src/components/Interviews.svelte',
+		about: '#about',
+		contact: '#contact'
+	}
+
 </script>
 
 <main>
@@ -10,22 +19,22 @@
 					<a class='menu__item' href="/"><h3>Home</h3></a>
 				</li>
 				<li>
-					<a class='menu__item' href="/src/components/BLog.svelte"><h3>Blog</h3></a>
+					<a class='menu__item' href={navLink.blog}><h3>Blog</h3></a>
 				</li>
 				<li>
-					<a class='menu__item' href="#review"><h3>Reviews</h3></a>
+					<a class='menu__item' href={navLink.review}><h3>Reviews</h3></a>
 				</li>
 				<li>
-					<a class='menu__item' href="/src/components/Playlists.svelte"><h3>Playlists</h3></a>
+					<a class='menu__item' href={navLink.playlist}><h3>Playlists</h3></a>
 				</li> 
 				<li>
-					<a class='menu__item' href="/src/components/Interviews.svelte"><h3>Interviews</h3></a>
+					<a class='menu__item' href={navLink.interviews}><h3>Interviews</h3></a>
 				</li>
 				<li>
-					<a class='menu__item' href="#about"><h3>About</h3></a>
+					<a class='menu__item' href={navLink.about}><h3>About</h3></a>
 				</li>
 				<li>
-					<a class='menu__item' href="#contact"><h3>Contact</h3></a>
+					<a class='menu__item' href={navLink.contact}><h3>Contact</h3></a>
 				</li>
 			</ul>
 		</nav> 
@@ -40,22 +49,22 @@
 					<a class='ham-item' href="/"><h3>Home</h3></a>
 				</li>
 				<li>
-					<a class='ham-item' href="/src/components/BLog.svelte"><h3>Blog</h3></a>
+					<a class='ham-item' href={navLink.blog}><h3>Blog</h3></a>
 				</li>
 				<li>
-					<a class='ham-item' href="#review"><h3>Reviews</h3></a>
+					<a class='ham-item' href={navLink.review}><h3>Reviews</h3></a>
 				</li>
 				<li>
-					<a class='ham-item' href="/src/components/Playlists.svelte"><h3>Playlists</h3></a>
+					<a class='ham-item' href={navLink.playlist}><h3>Playlists</h3></a>
 				</li> 
 				<li>
-					<a class='ham-item' href="/src/components/Interviews.svelte"><h3>Interviews</h3></a>
+					<a class='ham-item' href={navLink.interviews}><h3>Interviews</h3></a>
 				</li>
 				<li>
-					<a class='ham-item' href="#about"><h3>About</h3></a>
+					<a class='ham-item' href={navLink.about}><h3>About</h3></a>
 				</li>
 				<li>
-					<a class='ham-item' href="#contact"><h3>Contact</h3></a>
+					<a class='ham-item' href={navLink.contact}><h3>Contact</h3></a>
 				</li>
 			</ul>
 		</label>
@@ -123,7 +132,8 @@
 		text-shadow: rgb(31, 31, 31, .6) 5px 5px;
 	}
 
-		@media (max-width: 640px) {
+		@media (max-width: 740px) {
+			
 			nav {
 				display: none;
 			}
@@ -136,6 +146,7 @@
 				font-size: 1.2em;
 				line-height: 1.6;
 				overflow-x: hidden;
+				scroll-behavior: none;
 			}
 
 			label .menu {
@@ -152,6 +163,7 @@
 				box-shadow: 0 0 0 0 rgb(43, 43, 43), 0 0 0 0 rgb(43, 43, 43);
 				cursor: pointer;
 				overflow-x: hidden;
+				margin-right: 0px;
 			}
 
 			label .hamburger {
@@ -189,6 +201,7 @@
 				box-shadow: 0 0 0 100vw rgb(43, 43, 43, .2), 0 0 0 80vh rgb(43, 43, 43, .955);
 				border-radius: 0;
 				border: 2px solid rgb(0, 0, 0, .7);
+				width: 100vw;
 			}
 
 			label input:checked + .menu .hamburger {

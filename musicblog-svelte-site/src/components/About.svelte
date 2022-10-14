@@ -34,6 +34,7 @@
 
     .about-img {
         margin-bottom: 7rem;
+        margin-right: 40px;
     }
 
     h4 {

@@ -1,5 +1,12 @@
 <script src="https://kit.fontawesome.com/0bbb5fd5b8.js" crossorigin="anonymous">
 
+    const links = {
+        spotify: '/',
+        twitter: '/',
+        tumblr: '/',
+        insta: '/'
+    }
+
 </script> 
 
 <main>
@@ -9,10 +16,10 @@
         </div>
 
         <div class="social-icons">
-            <a class='icon_' href="/"><i class="fa-brands fa-twitter"></i></a>
-            <a class='icon_' href="/"><i class="fa-brands fa-square-tumblr"></i></a>
-            <a class='icon_' href="/"><i class="fa-brands fa-instagram"></i></a>
-            <a class='icon_' href="/"><i class="fa-brands fa-spotify"></i></a>
+            <a class='icon_' href={links.twitter}><i class="fa-brands fa-twitter"></i></a>
+            <a class='icon_' href={links.tumblr}><i class="fa-brands fa-square-tumblr"></i></a>
+            <a class='icon_' href={links.insta}><i class="fa-brands fa-instagram"></i></a>
+            <a class='icon_' href={links.spotify}><i class="fa-brands fa-spotify"></i></a>
         </div>
 
         <div class="para-container">
@@ -31,7 +38,7 @@
 
     a {
         color: rgba(218, 174, 174, 0.8);
-    }
+    } 
 
 /*! Class Styles !*/
     .footer-container {

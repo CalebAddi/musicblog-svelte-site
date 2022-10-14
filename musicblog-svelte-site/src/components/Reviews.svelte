@@ -585,7 +585,7 @@ h4 {
 	font-family: 'Poppins';
 }
 
-@media (min-width: 640px) {
+@media (min-width: 740px) {
 			main {
 				max-width: none;
 			}

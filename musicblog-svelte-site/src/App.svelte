@@ -80,11 +80,9 @@
 		z-index: 3;
 	}
 
-		@media (min-width: 640px) {
-			main {
-				max-width: none;
-			}
-		}
+	@media (min-width: 740px) {
+		
+	}
 </style>
 
 <canvas bind:this={el}></canvas>
